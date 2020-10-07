@@ -13,6 +13,7 @@ import Foreign.JsMap.ArrayOfTwoValues (fst, snd)
 import Foreign.JsMap.Iterator (_toArray)
 import Foreign.JsMap.Types (JsMap)
 import Foreign.JsMap.Api (_clear, _delete, _entries, _forEach, _get, _has, _keys, _set, _values)
+import Foreign.JsMap.Types (JsMap) as Export
 import Foreign.JsMap.Api (empty) as Export
 import Data.Function.Uncurried as Fn
 import Data.Maybe (Maybe)
